@@ -60,9 +60,20 @@ Applied to all reviews before classification:
 
 The script generates four plots in `output/`:
 
-- **metrics_comparison.png** — side-by-side bar chart of all metrics
-- **confusion_matrix_vader.png** — VADER confusion matrix
-- **confusion_matrix_tf-idf__lr.png** — TF-IDF + LR confusion matrix
-- **vader_compound_histogram.png** — compound score distribution by true label
+### Metrics Comparison
+
+![Metrics Comparison](output/metrics_comparison.png)
+
+### Confusion Matrix — VADER
+
+![VADER Confusion Matrix](output/confusion_matrix_vader.png)
+
+### Confusion Matrix — TF-IDF + LR
+
+![TF-IDF Confusion Matrix](output/confusion_matrix_tf-idf__lr.png)
+
+### VADER Compound Score Distribution
+
+![VADER Histogram](output/vader_compound_histogram.png)
 
 It also prints misclassified examples and a written analysis comparing both methods.

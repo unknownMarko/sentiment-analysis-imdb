@@ -1,6 +1,5 @@
 aclImdb/
 aclImdb_v1.tar.gz
-output/
 venv/
 get-pip.py
 __pycache__/
